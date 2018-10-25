@@ -28,7 +28,7 @@ public class LoggingDemoApplication {
 		public String greet(String name) {
 
 			log.info("greetService -> greet -> Received : name " + name);
-			if ( name.equals("")) {
+			if ( name.equals("test")) {
 				log.warn("greetService -> greet -> No name specified");
 			}
 			String upperName = name.toUpperCase();
